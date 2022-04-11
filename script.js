@@ -10,7 +10,7 @@ function loop(){
     requestAnimationFrame(loop);
     var hex = colorpickerinput.value.toString(16);
     hexdecimal.textContent = hex
-    hexdecimal.style.color = hex
+    hexdecimal.style.color = hex    
 }
 
 function updateOutput(){
@@ -23,9 +23,14 @@ function updateOutput(){
     }
     var output = document.getElementById("output");
     var selectedstring = document.getElementById("selectedstring");
-
+    if(ColorMode == true){
+        selectedstring.placeholder = "Type in here. (Text start's with #ffffff)"
+        output.textContent = "#ffffff " + selectedstring.value;
+    } else {
+        selectedstring.placeholder = "Type in here."
+        output.textContent = "" + selectedstring.value;
+    }
     if(selectedstring.value.match(/[^\x00-\x7F]/g)){selectedstring.value = selectedstring.value.replace(/[^\x00-\x7F]/g, ''); alert("You cannot use unicode characters in your message!");return;}
-    if(ColorMode)output.textContent = "#ffffff " + selectedstring.value;else output.textContent = selectedstring.value;
 
     var split = output.textContent.split(" ");
     for (var i = 0; i < split.length; i++) {
