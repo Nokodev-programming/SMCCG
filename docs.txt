@@ -5,6 +5,8 @@ Scrap Mechanic Chat Customizer Generator (Or SMCCG) Is a message creater for scr
 Features: \n 
 \n: #dedede Makes a new line. \r \n \n 
 \r: #dedede Resets the color to default (Website by default is #ffffff). \r \n \n 
+\\n: #dedede Returns with \\n without linebreak. \r \n \n 
+\\r: #dedede Returns with \\r without reseting the color. \r \n \n 
 #RRGGBB: #dedede Changes the color of the text (Uses HEX method). \r \n \n 
 
 Customization: \n 
