@@ -1,0 +1,16 @@
+Documentation - How to use Scrap Mechanic Chat Customizer Generator. \n  \n 
+
+Scrap Mechanic Chat Customizer Generator (Or SMCCG) Is a message creater for scrap mechanic. This is a better option for a painless method of making custom messages. Not only that it has a built in color picker from google. it uses RGB colors and converts it to HEX Colors. You can also upload files ending with .smccg and it will automaticly genereate text. \n  \n  \n 
+
+Features: \n 
+\n: #dedede Makes a new line. \r \n \n 
+\r: #dedede Resets the color to default (Website by default is #ffffff). \r \n \n 
+#RRGGBB: #dedede Changes the color of the text (Uses HEX method). \r \n \n 
+
+Customization: \n 
+#dedede Able to toggle colors, \n's and \r's. (If all of them are disabled it will tell you 1 of them needs to be enabled. Else its instead a notepad file. go to #44ff00 https://notepad.js.org #dedede for that!) \n  \n 
+Able to load files that ends with .smccg (This file extention is the only thing that you can read. (TIP: you can convert a .txt file to a .smccg as its plain text)) \r \n \n 
+
+This website is opensource. Go to #44ff00 https://github.com/Nokodev-programming/SMCCG \r to see the sourcecode. \n  \n 
+
+End of documentation.

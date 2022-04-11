@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+@font-face {
+    font-family: SovjetBox;
+    src: url(SovjetBox.otf)
+}
+*{
+    font-family: SovjetBox;
+}
+body{
+    background: url("background.webp");
+    background: url(background.webp) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:white;
+    text-align: center;
+    overflow-x: hidden;
+}
+#title{
+    position: relative;
+    font-size: 2em;
+    top: 2em;
+}
+#description{
+    position: relative;
+    font-size: 0.9em;
+    top: 2.5em;
+}
+#colorpicker{
+    position: absolute;
+    top: 20em;
+    left: 20px;
+    background: rgb(50, 50, 50);
+    width: 20em;
+}
+#hexdecimal{
+    position: relative;
+    left: 6.5em;
+    bottom: 2.05em;
+}
+#hexdecimaltext{
+    position: relative;
+    right: 3.5em;
+}
+#colorpickerinput{
+    width: 20em;
+    background: transparent;
+    border: 0px none black;
+}
+#noscripterror{
+    position: relative;
+    color: red;
+    bottom: 3.5em;
+    font-size: 2em;
+}
+#main{
+    position: relative;
+    background: rgb(50, 50, 50);
+    width: 50em;
+    height: 45em;
+    margin: auto;
+    top: 5em;
+}
+#main section{
+    position: relative;
+    top: 1em;
+    background: transparent;
+    color: white;
+    text-align: left;
+    width: 46em;
+    left: 2em;
+    height: 40em;
+    background: rgb(70, 70, 70);
+}
+#main section p{
+    padding: 1em;
+    word-wrap: break-word;
+}
+#main section p mark{
+    background: transparent;
+}
+#selectedstring{
+    position: relative;
+    top: 1em;
+    background: transparent;
+    border: 5px solid rgb(70, 70, 70);
+    color: white;
+    font-size: 1.5em;
+    width: 30em;
+}
+#docsandoptions{
+    position: absolute;
+    top: 20em;
+    right: 20px;
+    height: 38em;
+    background: rgb(50, 50, 50);
+    width: 20em;
+}
+#docsandoptions #docsdescription{
+    position: absolute;
+    top: 2em;
+}
+#docsandoptions #docsbutton{
+    position: relative;
+    top: 4em;
+    border: 5px solid rgb(70, 70, 70);
+    background: rgb(70, 70, 70);
+    color: white;
+}
+#docsandoptions #opstitle{
+    position: relative;
+    top: 5em;
+}
+#docsandoptions form{
+    position: relative;
+    top: 6em;
+}
+#docsandoptions #loadfile{
+    position: relative;
+    top: 18em;
+    border: 0px none black;
+    color: white;
+    width: 20em;
+    word-wrap: break-word;
+    font-family: SovjetBox;
+}
+#docsandoptions #genefile{
+    position: relative;
+    top: 19em;
+    border: 5px solid rgb(70, 70, 70);
+    background: rgb(70, 70, 70);
+    color: white;
+    width: 20em;
+    word-wrap: break-word;
+    font-family: SovjetBox;
+}
+#docsandoptions #doinfile{
+    position: relative;
+    top: 19.5em;
+    border: 5px solid rgb(70, 70, 70);
+    background: rgb(70, 70, 70);
+    color: white;
+    width: 20em;
+    word-wrap: break-word;
+    font-family: SovjetBox;
+}
+#docsandoptions #dooufile{
+    position: relative;
+    top: 20em;
+    border: 5px solid rgb(70, 70, 70);
+    background: rgb(70, 70, 70);
+    color: white;
+    width: 20em;
+    word-wrap: break-word;
+    font-family: SovjetBox;
+}

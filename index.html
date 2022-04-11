@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Scrap Mechanic Chat Customizer Generator">
+    <meta property="og:description" content="Create custom chat messages without in a painfull way. Created by NokoDev">
+    <meta property="og:image" content="https://scrapmechanic.com/img/scrapmechanic-logo.png">
+    <meta property="og:image:alt" content="Create custom chat messages without in a painfull way. Created by NokoDev">
+    <meta property="og:url" content="https://smccg.nokodev.com">
+    <meta property="og:site_name" content="SMCCG - Scrap Mechanic Chat Customizer Generator">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@nokodev">
+    <meta name="twitter:title" content="Scrap Mechanic Chat Customizer Generator">
+    <meta name="twitter:description" content="Create custom chat messages without in a painfull way. Created by NokoDev">
+    <meta name="description" content="Create custom chat messages without in a painfull way. Created by NokoDev">
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+    <title>SMCCG - Scrap Mechanic Chat Customizer Generator</title>
+</head>
+<body>
+    <p id="title">Scrap Mechanic Chat Customizer Generator</p>
+    <p id="description">Create custom chat messages without in a painfull way. Created by NokoDev</p>
+    <div id="colorpicker">
+        <p>Color Generator.</p>
+        <input id="colorpickerinput" type="color">
+        <p id="hexdecimaltext">Color [HEX COLOR]: <p id="hexdecimal"></p></p>
+    </div>
+    <div id="main">
+        <input autofocus="on" id="selectedstring" type="text" placeholder="Type in here. (Text start's with #ffffff)">
+        <section>
+            <p id="output"></p>
+        </section>
+    </div>
+    <div id="docsandoptions">
+        <p id="docstitle">Documentation</p>
+        <p id="docsdescription">Click this button tho read how to use this.</p>
+        <input id="docsbutton" type="button" value="Read Documentation">
+        <p id="opstitle">Settings</p>
+        <form>
+            <input id="colortoggle" type="checkbox" checked="true">Toggle Colour.</input>
+            <br></br>
+            <input id="togglen" type="checkbox" checked="true">Toggle \n.</input>
+            <br></br>
+            <input id="toggler" type="checkbox" checked="true">Toggle \r.</input>
+        </form>
+        <input id="loadfile" type="file" accept=".smccg">
+        <input id="genefile" type="button" value="Generate File">
+        <input id="doinfile" type="button" value="Download File (Input)">
+        <input id="dooufile" type="button" value="Download File (Output)">
+    </div>
+    <noscript><p id="noscripterror">ERROR: This site requires javascript to work properly.</p></noscript>
+    <script src="script.js"></script>
+</body>
+</html>
